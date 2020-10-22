@@ -28,6 +28,9 @@ ax.plot()
 
 plot_ellipse(3,2)
 plot_ellipse(10, 0.2)
-
+plt.text(0,5, "$\delta$")
+plt.title("title")
+plt.xlabel("preuba_x")
+plt.ylabel("prueba_y")
 plt.axis([-ancho/2,  ancho/ 2, -alto/2, alto/2])
 plt.show()
