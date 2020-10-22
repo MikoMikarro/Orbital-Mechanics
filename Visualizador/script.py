@@ -25,7 +25,9 @@ fig, ax = plt.subplots()
 
 ax.add_artist(circle1)
 ax.plot()
+
 plot_ellipse(3,2)
 plot_ellipse(10, 0.2)
+
 plt.axis([-ancho/2,  ancho/ 2, -alto/2, alto/2])
 plt.show()
